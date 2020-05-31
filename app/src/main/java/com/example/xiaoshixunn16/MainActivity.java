@@ -57,6 +57,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         impMainPresenter.mainData(name,psw);
     }
 
+    /**
+     * 登录成功
+     * @param mainBean
+     */
     @Override
     public void onSuccess(MainBean mainBean) {
     Toast.makeText(MainActivity.this,"登陆成功",Toast.LENGTH_LONG).show();
